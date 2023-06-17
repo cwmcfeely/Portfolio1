@@ -123,7 +123,7 @@ h2 {
     margin-bottom: 50px;
 }
 
-#right-about-heading{
+#right-about-heading {
     width: 60%;
     float: right;
     line-height: 20px;
@@ -131,11 +131,24 @@ h2 {
     margin-bottom: 50px;
 }
 
+#right-about-heading h2 {
+    text-align: right;
+}
+
+#right-about-heading p {
+    text-align: right;
+}
 
 hr {
     border-top: 1px solid #3a4a4a;
     width: 100%;
     margin: 5px 0;
+}
+
+#welcome {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 280%;
 }
 
 /* creates the level of zoom for hero image */
