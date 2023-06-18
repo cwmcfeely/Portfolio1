@@ -243,6 +243,13 @@ footer {
         padding: 0;
     }
 
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
@@ -283,7 +290,18 @@ footer {
         text-align: center;
         padding: 20px;
     }
+
+    #photos {
+        column-count: 3;
+    }
 }
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
