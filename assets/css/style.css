@@ -85,145 +85,22 @@ h2 {
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1.11);
     }
 }
 
-#cover-text,
-#cover-text h2 {
-    color: #ffffff;
-}
+/* Header */
 
-#cover-text {
-    font-size: 130%;
-    font-family: Oswald;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
-
-}
-
-/* Club ethos */
-
-#club-ethos {
-    height: 600px;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading p {
-    text-align: right;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-/* Club ethos center image */
-
-#welcome {
-    margin: 20px 0;
-    text-align: center;
-    font-size: 280%;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url('../images/ethos-center-image.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-/* Event times */
-
-#times {
-    background-image: url('../images/dublin-city.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#times div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-
-#times h2 {
-    color: #fafafa;
+header {
+    height: 148px;
+    background-image: url("../images/AvocadoFarm.jpg");
 }
 
 /* Footer */
 
 footer {
-    height: 150px;
+    height: 175px;
+    background-image: url("../images/AvocadoFarm.jpg");
 }
 
 .social-networks {
@@ -239,20 +116,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
-}
-
-/* Gallery Photos */
-
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0px;
-}
-
-#photo img {
-    width: 100%;
+    color: #0c9769;
 }
 
 /* Form */
@@ -355,15 +219,11 @@ footer {
 @media screen and (max-width: 950px) {
 
     #menu {
-        clear: left;
-        float: left;
+        clear: center;
+        float: center;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-    }
-
-    #cover-text {
-        left: 0px;
     }
 
     #club-ethos {
